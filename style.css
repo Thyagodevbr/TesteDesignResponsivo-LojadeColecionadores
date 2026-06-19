@@ -1,0 +1,85 @@
+:root {
+    --Papel_pergaminho: #fff8b7;
+    --Preto_fosco: #161616;
+    --Vermelho_sangue: #c02b2b;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background: var(--Papel_pergaminho);
+    color: var(--Preto_fosco);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#vitrine {
+    margin: 20px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartao-produto {
+    background: #fffbd6;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: var(--Vermelho_sangue);
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold; 
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--Vermelho_sangue);
+    color: #fff;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.cartao-produto h4, .cartao-produto p {
+    margin: 8px 0;
+}
+
+#copyrigth {
+    color:#a8a479
+}
+
+h1, h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    
+}
+
+h2 {
+    color: #5e1515;
+}
